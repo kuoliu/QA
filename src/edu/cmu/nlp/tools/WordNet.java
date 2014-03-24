@@ -150,7 +150,7 @@ public class WordNet {
 		System.out.println(WordNet.getNounSynonyms("car"));
 		System.out.println(WordNet.getVerbSynonyms("like"));
 		System.out.println(WordNet.getVerbAntonym("like"));
-		System.out.println(WordNet.getAdjSynonyms("similar"));
+		System.out.println(WordNet.getAdjSynonyms("smart"));
 		System.out.println(WordNet.getAdjAntonym("similar"));
 		System.out.println(WordNet.getNounHypernym("cars"));
 		System.out.println(WordNet.getVerbHypernym("like"));

@@ -21,14 +21,15 @@
 //	  mheilman@cmu.edu
 //	  http://www.cs.cmu.edu/~mheilman
 
-package edu.cmu.ark.tests;
+package edu.cmu.nlp.tests;
 
 import java.util.*;
+
 import junit.framework.TestCase;
-import edu.cmu.ark.AnalysisUtilities;
-import edu.cmu.ark.GlobalProperties;
-import edu.cmu.ark.Question;
-import edu.cmu.ark.SentenceSimplifier;
+import edu.cmu.nlp.qg.AnalysisUtilities;
+import edu.cmu.nlp.qg.GlobalProperties;
+import edu.cmu.nlp.qg.Question;
+import edu.cmu.nlp.qg.SentenceSimplifier;
 import edu.stanford.nlp.trees.*;
 
 public class TestSentenceSimplifier extends TestCase{

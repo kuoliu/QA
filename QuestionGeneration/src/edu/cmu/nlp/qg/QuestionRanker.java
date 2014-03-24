@@ -1,4 +1,4 @@
-package edu.cmu.ark;
+package edu.cmu.nlp.qg;
 
 import java.util.*;
 import java.util.zip.GZIPInputStream;

@@ -15,9 +15,22 @@ public class Sentence {
 	private List<Pair> coref = new ArrayList<Pair>();
 	private List<String> synonyms = new ArrayList<String>();
 
+	public String toString(){
+		StringBuilder sb = new StringBuilder();
+		sb.append("SENTENCE{\n");
+		sb.append("\tid:\t" + this.getId() + "\n");
+		sb.append("\ttokens:\t" + this.getTokens() + "\n");
+		sb.append("\tnounPhrases:\t" + this.getNounPhrases() + "\n");
+		sb.append("\tverbPhrases:\t" + this.getVerbPhrases() + "\n");
+		sb.append("\tcoref:\t" + this.getCoref() + "\n");
+		sb.append("\tsynonyms:\t" + this.getSynonyms() + "\n");
+		sb.append("}\n");
+		return sb.toString();
+	}
+	
 	public Sentence() {
 	}
-
+	
 	public Sentence(int id, String sentence, List<Chunk> tokens,
 			List<String> nounPhrases, List<String> verbPhrases,
 			List<Pair> coref, List<String> synonyms) {

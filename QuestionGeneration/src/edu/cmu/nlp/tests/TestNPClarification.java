@@ -1,17 +1,13 @@
 
 
-package edu.cmu.ark.tests;
-
-import edu.cmu.ark.*;
+package edu.cmu.nlp.tests;
 
 import java.io.File;
 import java.util.*;
 
 import arkref.analysis.ARKref;
 import junit.framework.TestCase;
-import edu.cmu.ark.AnalysisUtilities;
-import edu.cmu.ark.Question;
-import edu.cmu.ark.QuestionTransducer;
+import edu.cmu.nlp.qg.*;
 import edu.stanford.nlp.trees.*;
 
 public class TestNPClarification extends TestCase{

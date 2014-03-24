@@ -1,12 +1,11 @@
-package edu.cmu.ark.tests;
+package edu.cmu.nlp.tests;
 
 import java.util.List;
 
-import edu.cmu.ark.AnalysisUtilities;
-import edu.cmu.ark.GlobalProperties;
-import edu.cmu.ark.QuestionTransducer;
+import edu.cmu.nlp.qg.AnalysisUtilities;
+import edu.cmu.nlp.qg.GlobalProperties;
+import edu.cmu.nlp.qg.QuestionTransducer;
 import edu.stanford.nlp.trees.Tree;
-
 import junit.framework.TestCase;
 
 

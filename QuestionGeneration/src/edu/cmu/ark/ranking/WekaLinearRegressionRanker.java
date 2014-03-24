@@ -8,7 +8,7 @@ import weka.core.*;
 
 import java.util.List;
 
-import edu.cmu.ark.GlobalProperties;
+import edu.cmu.nlp.qg.GlobalProperties;
 
 
 public class WekaLinearRegressionRanker extends BaseRanker implements IRanker {

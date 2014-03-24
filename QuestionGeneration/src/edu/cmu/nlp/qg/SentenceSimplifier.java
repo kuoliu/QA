@@ -21,7 +21,7 @@
 //	  mheilman@cmu.edu
 //	  http://www.cs.cmu.edu/~mheilman
 
-package edu.cmu.ark;
+package edu.cmu.nlp.qg;
 
 import java.util.*;
 import java.io.*;

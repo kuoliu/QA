@@ -22,7 +22,7 @@
 //	  http://www.cs.cmu.edu/~mheilman
 
 
-package edu.cmu.ark;
+package edu.cmu.nlp.qg;
 
 import edu.stanford.nlp.trees.*;
 import edu.stanford.nlp.util.*;

@@ -38,4 +38,13 @@ public class Chunk {
 	public void setNe(String ne) {
 		this.ne = ne;
 	}
+	
+	public String toString(){
+		return "{" + this.getWord() + "," + this.getPos() + "," + this.getNe() + "}";
+	}
+	
+	public static void main(String[] args){
+		Chunk test = new Chunk("word", "POS", "NE");
+		System.out.println(test);
+	}
 }

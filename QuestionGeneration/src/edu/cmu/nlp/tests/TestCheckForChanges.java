@@ -1,15 +1,15 @@
-package edu.cmu.ark.tests;
+package edu.cmu.nlp.tests;
 
 import java.io.*;
 import java.util.*;
 import java.util.zip.*;
 
-import edu.cmu.ark.AnalysisUtilities;
-import edu.cmu.ark.GlobalProperties;
-import edu.cmu.ark.InitialTransformationStep;
-import edu.cmu.ark.Question;
-import edu.cmu.ark.QuestionRanker;
-import edu.cmu.ark.QuestionTransducer;
+import edu.cmu.nlp.qg.AnalysisUtilities;
+import edu.cmu.nlp.qg.GlobalProperties;
+import edu.cmu.nlp.qg.InitialTransformationStep;
+import edu.cmu.nlp.qg.Question;
+import edu.cmu.nlp.qg.QuestionRanker;
+import edu.cmu.nlp.qg.QuestionTransducer;
 import edu.stanford.nlp.trees.Tree;
 import junit.framework.TestCase;
 

@@ -23,6 +23,7 @@ public class Configuration {
 	
 	//other
 	private static String wordListPath = "files/wordlist";
+	private static String pronounListPath = "files/pronoun";
 	
 	public static String getWordnetDatabasePath() {
 		return wordnetDatabasePath;
@@ -135,5 +136,13 @@ public class Configuration {
 
 	public static void setSmoOption(String smoOption) {
 		Configuration.smoOption = smoOption;
+	}
+
+	public static String getPronounListPath() {
+		return pronounListPath;
+	}
+
+	public static void setPronounListPath(String pronounListPath) {
+		Configuration.pronounListPath = pronounListPath;
 	}
 }

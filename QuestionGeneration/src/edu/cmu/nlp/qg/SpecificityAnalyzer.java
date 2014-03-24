@@ -1,4 +1,4 @@
-package edu.cmu.ark;
+package edu.cmu.nlp.qg;
 
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.tregex.TregexMatcher;

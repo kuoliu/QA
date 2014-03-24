@@ -1,9 +1,12 @@
-package edu.cmu.ark;
+package edu.cmu.nlp.qg;
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
 
+import edu.cmu.ark.DiscriminativeTagger;
+import edu.cmu.ark.LabeledSentence;
+import edu.cmu.ark.SuperSenseFeatureExtractor;
 import edu.stanford.nlp.trees.Tree;
 
 

@@ -18,6 +18,10 @@ public class Pair{
 		this.setCoref(coref);
 	}
 
+	public String toString(){
+		return "{" + this.getWord() + "," + this.getCoref() + "}";
+	}
+	
 	public String getWord() {
 		return word;
 	}

@@ -1,4 +1,4 @@
-package edu.cmu.ark;
+package edu.cmu.nlp.qg;
 /*
 
    Porter stemmer in Java. The original paper is in

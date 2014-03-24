@@ -7,7 +7,8 @@ public class Dict {
 
 	private static HashMap<String, Integer> dict = new HashMap<String, Integer>();
 	private static int size = 0;
-	
+	private static HashSet<String> pronounDict = new HashSet<String>();
+
 	static {
 		try {
 			Scanner sc = new Scanner(new FileInputStream(
@@ -17,9 +18,19 @@ public class Dict {
 				dict.put(sc.nextLine(), id++);
 			}
 			setSize(dict.size());
+
+			sc = new Scanner(new FileInputStream(
+					Configuration.getPronounListPath()));
+			while (sc.hasNextLine()) {
+				pronounDict.add(sc.nextLine());
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	public static boolean isPronoun(String word){
+		return pronounDict.contains(word);
 	}
 
 	public static int getWordIdx(String word) {

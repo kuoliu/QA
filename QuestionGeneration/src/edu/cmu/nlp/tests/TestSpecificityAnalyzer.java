@@ -1,10 +1,8 @@
-package edu.cmu.ark.tests;
+package edu.cmu.nlp.tests;
 
 import junit.framework.TestCase;
-
-
-import edu.cmu.ark.AnalysisUtilities;
-import edu.cmu.ark.SpecificityAnalyzer;
+import edu.cmu.nlp.qg.AnalysisUtilities;
+import edu.cmu.nlp.qg.SpecificityAnalyzer;
 import edu.stanford.nlp.trees.Tree;
 
 public class TestSpecificityAnalyzer extends TestCase{

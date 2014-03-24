@@ -22,7 +22,7 @@ public class AnnotatePhrase {
 						sb.append(tree.nodeString() + " ");
 				}
 				phraseList.add(sb.toString().substring(0, sb.length() - 1));
-				System.out.println(subtree);
+				//System.out.println(subtree);
 			}
 		}
 		return phraseList;
